@@ -1,0 +1,71 @@
+body {
+    font-family :  monospace;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    width: 100vw;
+    background-color: rgb(18, 24, 128);
+}
+
+.logindiv {
+    width: 40%;
+    height: 50%;
+     /* display: flex;  */
+    align-items: center;
+    padding: 50px;
+    justify-content: center;
+    background-color: antiquewhite;
+    border-radius: 2vh;
+    border: 5px solid rgb(120, 235, 95);
+    
+}
+h2 {
+    text-align: center;
+    margin-bottom: 4vh;
+    display: flex;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    justify-content: center;
+    align-items: center;
+    color: rgb(18, 24, 128);
+    font-size: 4rem;
+}
+
+form {
+    
+    display: flex;
+    font-size: 2rem;
+    justify-content: center;
+
+    /* align-items: center; */
+    margin-top: 30px;
+
+    flex-direction: column;
+    width: 100%;
+}
+input {
+    margin-bottom: 2vh;
+    height: 3vh;
+    font-size: 2rem;
+    padding: 10px;
+    border-radius: 1vh;
+    border: 2px solid rgb(120, 235, 95);
+}
+
+label {
+    margin-bottom: 1vh;
+    font-size: 2.5rem;
+    color: rgb(18, 24, 128);
+}
+
+button {
+    margin-top: 2vh;
+    font-size: 2.5rem;
+    cursor: pointer;
+    padding: 10px;
+    color: rgb(245, 244, 238);
+    background-color: rgb(81, 246, 44);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
